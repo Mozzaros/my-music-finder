@@ -114,7 +114,6 @@ with col1:
                         
                         if youtube_video_link:
                             st.video(youtube_video_link)
-                    st.rerun()
                 else:
                     st.warning("❌ Δεν βρέθηκε το τραγούδι.")
             except Exception as e:
